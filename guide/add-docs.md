@@ -10,7 +10,7 @@ New to SpecPage? **Try a sample API** fills in a small pet store spec so you can
 
 ## Paste a link instead
 
-Paste a link to a spec file into the page and SpecPage inserts the macro with the settings filled in. This works for files named `openapi` or `swagger` (`.yaml`, `.yml` or `.json`) on github.com, gitlab.com or bitbucket.org, and for APIs on app.swaggerhub.com, as long as an admin has set up a connection that allows the repository. Edit the macro and choose **Save** to keep the settings.
+Paste a link to a spec file into the page and SpecPage inserts the macro with the settings filled in. This works for files named `openapi` or `swagger` (`.yaml`, `.yml` or `.json`) on github.com, gitlab.com or bitbucket.org, and for APIs on app.swaggerhub.com, as long as an admin has set up a connection that allows the repository. The macro shows "isn't set up yet" until you save it: select it, choose **Edit** (the settings are already filled in from the link), check the preview and choose **Save**.
 
 ## Several specs on one page
 
