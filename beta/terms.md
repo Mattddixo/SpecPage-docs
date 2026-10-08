@@ -1,6 +1,6 @@
 # SpecPage beta terms
 
-Last updated: 4 October 2026
+Last updated: 8 October 2026
 
 SpecPage is a Confluence Cloud app for showing OpenAPI, Swagger and AsyncAPI docs on Confluence pages. These terms cover the free beta, which is shared by installation link before the app is listed on the Atlassian Marketplace. By installing the beta you agree to them.
 
@@ -20,6 +20,18 @@ The beta is provided "as is" and "as available", without warranties of any kind,
 - Try it out sends test requests to the API hosts your Confluence admin approves. Approve test or staging APIs where you can, and keep the default read-only setting unless you're sure.
 - Don't use the beta for anything where a failure could cause harm or significant loss.
 - You're responsible for the specs, credentials and content you put into it, and for having the right to use them.
+
+## Acceptable use
+
+Don't use SpecPage, including Try it out, to:
+
+- send requests to systems or APIs you aren't authorized to access or test, including APIs you found in someone else's documentation;
+- attack, probe, scan, fuzz, overload or disrupt any system, or test its security without its owner's written permission;
+- get around authentication, rate limits or other security measures, including SpecPage's own;
+- hide who is sending requests, or make them look like they come from someone else;
+- send unlawful or malicious content, or break any law that applies to you or the system you're calling.
+
+Your Confluence admins choose which hosts SpecPage may contact, and your organization is responsible for approving only hosts it's allowed to call and for the requests its users send. When the Try it out request log is on, admins can see who sent each request. We may end your use of the beta and report misuse to Atlassian if these rules are broken.
 
 ## Limitation of liability
 

@@ -33,3 +33,11 @@ Requests go through SpecPage on Atlassian's servers instead of straight from you
 Credentials you type (API keys, tokens, client secrets) stay in the page's memory and are gone when you leave the page. SpecPage never saves or logs them.
 
 The API sees requests coming from Atlassian's IP addresses, not yours.
+
+## Who can see your requests
+
+Your Confluence admins can see a log of Try it out requests: who sent each one, when, the method, host and path, and the API's response status. It never includes query strings, headers, request bodies, responses or the credentials you type. See [Activity and request logs](activity-log.md).
+
+## Acceptable use
+
+Only send requests to APIs you're allowed to use. Using Try it out to probe, attack or overload systems you aren't authorized to test breaks SpecPage's terms: see **Acceptable use** in the [beta terms](../beta/terms.md), or the Acceptable Use Policy for the Marketplace version.

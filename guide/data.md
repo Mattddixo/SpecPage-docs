@@ -10,6 +10,7 @@ SpecPage doesn't keep the master copy of anything. Specs stay where they are: in
 
 - **Specs**: **Download** on any macro saves the spec as JSON. Attachments and pasted specs are part of the Confluence page and are exported with it.
 - **Activity log**: **Download CSV** in SpecPage settings.
+- **Try it out request log**: **Download CSV** for each day in SpecPage settings.
 - **Settings and connections**: shown in SpecPage settings. Tokens can't be exported; they're never sent back to the browser.
 
 ## Deleting
@@ -19,8 +20,9 @@ While SpecPage is installed, an admin can:
 - delete a connection, which deletes its token and webhook secret;
 - choose **Clear cache** to drop cached specs;
 - set a retention period for the activity log;
+- choose how long to keep the Try it out request log, or turn it off, which deletes it;
 - remove a macro from a page, which removes it from the API catalog.
 
-To delete everything, uninstall SpecPage. Before it's removed, SpecPage deletes the account IDs from its activity log. Atlassian keeps an app's storage for 28 days after an uninstall, in case you reinstall and ask for it back, and then deletes it.
+To delete everything, uninstall SpecPage. Before it's removed, SpecPage deletes the account IDs from its activity log and deletes the Try it out request log. Atlassian keeps an app's storage for 28 days after an uninstall, in case you reinstall and ask for it back, and then deletes it.
 
 For a deletion request, contact support@matt-lab.ca.

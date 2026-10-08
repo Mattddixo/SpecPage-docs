@@ -6,7 +6,7 @@ SpecPage shows OpenAPI, Swagger and AsyncAPI specs as interactive docs on Conflu
 
 - [Set up SpecPage](admin-setup.md): turn features on, connect Git providers, approve hosts
 - [Webhooks](webhooks.md): refresh docs as soon as someone pushes
-- [Activity log](activity-log.md): who changed what, retention, CSV export
+- [Activity and request logs](activity-log.md): who changed what, who sent which Try it out request, retention, CSV export
 - [Your data](data.md): what's stored, exporting it and deleting it
 
 ## For page editors

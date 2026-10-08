@@ -1,13 +1,13 @@
 # SpecPage privacy notice
 
-Last updated: 4 October 2026
+Last updated: 8 October 2026
 
 SpecPage is a Confluence Cloud app built on Atlassian Forge. This notice explains what it stores, where data goes, and how long it's kept. It applies to the beta and will be updated before the app is listed on the Atlassian Marketplace.
 
 ## The short version
 
 - SpecPage runs entirely on Atlassian's Forge platform. It has no servers of its own, and **nothing is sent to the developer**: no analytics, no tracking, no copies of your specs or pages.
-- The only personal data it stores is the Atlassian account ID of admins who change its settings, for the activity log.
+- The only personal data it stores is Atlassian account IDs: of admins who change its settings, for the activity log, and of users who send Try it out requests, for the request log (which admins can turn off).
 - Data leaves your Atlassian site only for hosts your Confluence admin approves (your Git provider, spec URLs, and APIs for Try it out).
 
 ## What's stored, and where
@@ -22,13 +22,14 @@ Everything below is kept in your site's Forge app storage, which Atlassian hosts
 | Copies of specs loaded from Git or URLs | Faster pages | Up to 24 hours, as set by the admin (or not at all) |
 | One record per SpecPage macro: title, version, number of endpoints, source label, page and space IDs | The API list for each space and the site-wide catalog | Removed when the macro is removed from its page, or after 90 days unviewed if the page is hidden from everyone |
 | Activity log: time, admin's Atlassian account ID, what changed (for site settings the new value, such as on or off; for Git connections field names only; never tokens) | So admins can see who changed what | The latest 200 changes, or 30 to 365 days if the admin sets a limit |
+| Try it out request log: time, the user's Atlassian account ID, method, host, path and the API's response status. Never query strings, headers, request bodies, responses or credentials | So admins can see who sent which request, and misuse can be traced | 30 days by default; admins can choose 7 or 90 days, or turn it off, which deletes it. At most 2,000 requests a day are kept one by one |
 | Rate-limit counters for Try it out | To stop abuse | Keyed by a salted hash of the account ID, never the ID itself; expire after 10 minutes |
 
 Specs attached to pages stay as Confluence attachments, under Confluence's own permissions. Signed-in users read them as themselves; for guests, the app reads them from the page they're already viewing.
 
 ## Account IDs and Atlassian's privacy reporting
 
-The activity log stores Atlassian account IDs, which are personal data. Names are looked up from Atlassian when the log is shown and never saved. As Atlassian requires, the app reports these IDs to Atlassian's personal data reporting API about once a week. When an account is closed, its ID is removed from the log, and the entry shows "Former user".
+The activity log and the Try it out request log store Atlassian account IDs, which are personal data. Names are looked up from Atlassian when a log is shown and never saved. As Atlassian requires, the app reports these IDs to Atlassian's personal data reporting API about once a week. When an account is closed, its ID is removed from both logs, and its entries show "Former user".
 
 ## Data sent outside your Atlassian site
 
@@ -46,7 +47,7 @@ The app writes short operational messages to Atlassian's Forge logs, which the d
 
 ## Uninstalling
 
-Before the app is uninstalled, it removes every account ID from its activity log. Atlassian keeps an app's storage for 28 days after uninstalling (so it can be restored on request) and then deletes it.
+Before the app is uninstalled, it removes every account ID from its activity log and deletes the Try it out request log. Atlassian keeps an app's storage for 28 days after uninstalling (so it can be restored on request) and then deletes it.
 
 ## Your rights
 
