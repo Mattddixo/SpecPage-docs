@@ -27,7 +27,7 @@ Specs from Git are cached for the time the admin chose (10 minutes by default). 
 
 ## URL
 
-Available when an admin has turned on **Allow specs from URLs**. The URL must start with `https://` and its host must be on the admin's **Spec hosts** list. For private repositories, use a Git connection instead.
+Available when an admin has turned on **Allow specs from URLs**. The URL must start with `https://` and its host must be ticked for **Spec URLs** in the admin's **Approved hosts**. For private repositories, use a Git connection instead.
 
 ## Paste
 

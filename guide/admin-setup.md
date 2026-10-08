@@ -8,7 +8,7 @@ Nothing needs setting up for page attachments or pasted specs: editors can use t
 
 | Setting | What it does | Default |
 | --- | --- | --- |
-| **Allow specs from URLs** | Lets editors load a spec from an https URL on a host in the **Spec hosts** list. | Off |
+| **Allow specs from URLs** | Lets editors load a spec from an https URL on a host ticked for **Spec URLs** under **Approved hosts**. | Off |
 | **Cache specs from Git and URLs for** | How long a fetched spec is reused before SpecPage asks the source again: off, or 5 minutes to 24 hours. | 10 minutes |
 | **Keep activity log for** | **Latest 200 changes**, or 30, 90, 180 or 365 days. | Latest 200 |
 | **Keep Try it out request log for** | Who sent which Try it out request: 7, 30 or 90 days, or **Off** (which deletes it). See [Activity and request logs](activity-log.md). | 30 days |
