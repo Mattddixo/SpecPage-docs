@@ -15,7 +15,7 @@ Uploads and edits go to Confluence as you, so the page's normal permissions appl
 
 Choose a **Connection** (set up by an admin), then:
 
-- **Repository**: for example `acme/payments` (GitLab subgroups and Azure DevOps `organization/project/repository` work too). It must be on the connection's allowed list.
+- **Repository**: picked from the connection's allowed list (filled in when it allows just one). If the admin allowed a whole workspace or group, like `acme/*`, type the repository, for example `acme/payments` (GitLab subgroups and Azure DevOps `organization/project/repository` work too).
 - **Branch, tag or commit**: leave empty for the default branch.
 - **File path**: for example `api/openapi.yaml`.
 
