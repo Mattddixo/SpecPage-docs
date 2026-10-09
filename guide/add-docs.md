@@ -6,7 +6,7 @@
 4. Optionally adjust the **Display** tab ([Display options](display.md)) and look at the **Quality** tab ([Quality score](quality.md)).
 5. Choose **Save**, then publish the page.
 
-New to SpecPage? **Try a sample API** fills in a small pet store spec so you can see everything working before you set up a source.
+New to SpecPage? **Try a sample API** fills in a small spec for httpbin.org, a free public test API, so you can see everything working before you set up a source. Once an admin turns on Try it out and approves `httpbin.org`, you can send it real requests too.
 
 ## Paste a link instead
 
