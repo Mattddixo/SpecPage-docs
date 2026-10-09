@@ -31,4 +31,4 @@ Choose **Refresh**. If it happens often, shorten the cache time or turn on a [we
 
 ## Still stuck
 
-Email support@matt-lab.ca with the page URL, what you expected and the exact message. See the support policy.
+Under the message, choose **Copy details** and paste the result into an email to support@matt-lab.ca, with the page URL and what you expected to happen. The details hold the message you saw, its **Reference** (such as `SP-7K3QX9`), where and when it happened and your browser, and nothing else. If copying doesn't work, send the reference. See the support policy.

@@ -43,7 +43,7 @@ Admins approve each host in the SpecPage settings, Atlassian asks them to confir
 
 ## Logs
 
-The app writes short operational messages to Atlassian's Forge logs, which the developer can read for troubleshooting: counts, status codes, and error text that can include a host name. Logs never include tokens, credentials, spec content or account IDs. Atlassian keeps Forge logs for a limited time under its own policies.
+The app writes short operational messages to Atlassian's Forge logs, which the developer can read for troubleshooting: counts, status codes, how long a request took, the reference shown with an error message (such as `SP-7K3QX9`), and error text that can include a host name. Logs never include tokens, credentials, spec content or account IDs. Atlassian keeps Forge logs for a limited time under its own policies.
 
 ## Uninstalling
 
