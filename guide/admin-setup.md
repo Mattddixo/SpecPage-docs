@@ -4,6 +4,8 @@ You need to be a Confluence administrator. Open **Confluence settings**, then **
 
 Nothing needs setting up for page attachments or pasted specs: editors can use those straight after install. The settings below are for Git, URLs and Try it out.
 
+Each section opens and closes from its heading. **Connections** and **Approved hosts** start open, the rest closed, and your browser remembers how you left them. A closed **Approved hosts** shows a badge when hosts are suggested or the list couldn't be loaded.
+
 ## General
 
 | Setting | What it does | Default |
@@ -49,7 +51,7 @@ SpecPage can't contact anything outside your Atlassian site until you approve it
 - **Try it out**: readers may send test requests to it. If an API uses OAuth, add the identity provider's token host too.
 - **Used by: Git connection**: Git and SwaggerHub API addresses, added for you when you save a connection.
 
-**Suggested by your API docs** lists hosts that macros on your pages need and that aren't approved for that yet: the servers their specs point Try it out at, spec URLs that saved macros were refused, and hosts editors suggested from the macro settings (**Suggest it to your Confluence admin**). Each shows how many macros want it, with a button to approve it for that use, or **Dismiss** to hide one you don't want. It shows counts only, never page names. It's the easiest way to set things up: add some macros, then come back here.
+**Suggested by your API docs** lists hosts that macros on your pages need and that aren't approved for that yet: the servers their specs point Try it out at, spec URLs that saved macros were refused, and hosts editors suggested from the macro settings (**Suggest it to your Confluence admin**). Each host shows how many macros want it for what, with **Spec URLs** and **Try it out** ticked for the uses wanted: change the ticks if you like, then **Approve**, or **Dismiss** to hide one you don't want. It shows counts only, never page names. It's the easiest way to set things up: add some macros, then come back here.
 
 To add a host yourself, type it (`api.example.com`, or a wildcard like `*.example.com`), tick what it's for, and click **Approve**. Atlassian asks you to confirm once. After that, ticking or unticking a use takes effect straight away with no further approval, for example when an API serves its own spec and you want it for both. Unticking a host's last use, or clicking **Remove**, revokes its approval. You can also review approvals in **Atlassian Administration → Apps → Connected apps**.
 
