@@ -3,7 +3,7 @@
 **Changes** on a published page compares the spec with an earlier version and lists what changed, with breaking changes first. It's there for signed-in users on macros whose spec comes from Git or a page attachment.
 
 1. Choose **Changes**.
-2. For Git, enter a branch, tag or commit to compare with (for example `v1.2.0` or `main`). For an attachment, enter an older attachment version, or leave it empty for the previous version.
+2. For Git, choose a branch or tag from the list (the repository's first 100 of each), or choose **Other** to type a commit or another name. For SwaggerHub, type a version such as `1.2.0`. For an attachment, enter an older attachment version, or leave it empty for the previous version.
 3. Choose **Compare**.
 
 ## What counts as what
