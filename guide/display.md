@@ -6,7 +6,7 @@ The **Display** tab in the macro settings controls what readers see. The preview
 | --- | --- |
 | **Title** | Leave empty to use the title from the spec. |
 | **Show only these tags** | Show only operations with the ticked tags. |
-| **Show only paths starting with** | One per line, for example `/payments`. Leave empty to show everything. |
+| **Show only these paths** | Tick the groups of paths to show, for example `/payments`, which also covers `/payments/{id}`. Each shows how many operations it holds. Leave all unticked to show everything. |
 | **Hide deprecated operations** | Leave out operations marked as deprecated. |
 | **Expand operations** | **Show tags, collapse operations**, **Expand everything** or **Collapse everything**. |
 | **Maximum height** | **Grow with content**, or a fixed height with a scroll bar. |
