@@ -12,6 +12,7 @@ Messages are shown on the page with a hint. Editors see the full detail; readers
 | The Git connection "*name*" has no access token. | An admin needs to add a token, or choose **No token** for a public repository. |
 | Access to *file* was denied (HTTP 401/403). | The token has expired or can't read that repository. |
 | *file* wasn't found (HTTP 404). | Check the repository, branch and file path. A token without access to a private repository also gets 404. |
+| *address* is a web page, not a spec file. | The URL is a page about the file, such as its page on GitHub. Use the file's own address (on GitHub, the **Raw** link), or choose **Git or SwaggerHub** and paste the page link there. The macro settings offer both when you paste a page link. |
 | *host* didn't respond within *n* seconds. | The host is slow or down. **Refresh** to try again. |
 | *file* is larger than *n* MB. | Specs up to 20 MB can be shown (2 MB for editing in the macro settings). Split the spec into files with relative `$ref`s, or trim it. |
 | The attachment "*name*" wasn't found on this page. | It was renamed or deleted. Edit the macro and choose the file again. |
