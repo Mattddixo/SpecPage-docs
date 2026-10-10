@@ -1,6 +1,13 @@
 # Set up SpecPage
 
-You need to be a Confluence administrator. Open **Confluence settings**, then **SpecPage settings** in the left menu. Shortcut: open **API catalog** from the **Apps** menu, or any space's **API docs** page, and click **SpecPage settings** at the top (only admins see it).
+You need to be a Confluence administrator. To open SpecPage settings, use any of these:
+
+- **Confluence settings**, then **SpecPage settings** in the left menu.
+- The **SpecPage settings** button at the top of the **API catalog** (in the **Apps** menu) or any space's **API docs** page.
+- The **SpecPage settings** button on a "host isn't approved" warning, in the macro editor or on a page you're editing.
+- **Manage apps**, then **SpecPage**, then **Configure**.
+
+Only admins see these buttons.
 
 Nothing needs setting up for page attachments or pasted specs: editors can use those straight after install. The settings below are for Git, URLs and Try it out.
 
