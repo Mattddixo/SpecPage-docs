@@ -1,6 +1,6 @@
 # Set up SpecPage
 
-You need to be a Confluence administrator. Open **Confluence settings**, then **SpecPage settings** in the left menu.
+You need to be a Confluence administrator. Open **Confluence settings**, then **SpecPage settings** in the left menu. Shortcut: open **API catalog** from the **Apps** menu, or any space's **API docs** page, and click **SpecPage settings** at the top (only admins see it).
 
 Nothing needs setting up for page attachments or pasted specs: editors can use those straight after install. The settings below are for Git, URLs and Try it out.
 
