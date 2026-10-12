@@ -1,6 +1,6 @@
 # Third-party notices
 
-SpecPage includes the open source packages below. Each is used under its own license, reproduced at the end of this file. Development tools that are not shipped are not listed.
+SpecShelf includes the open source packages below. Each is used under its own license, reproduced at the end of this file. Development tools that are not shipped are not listed.
 
 518 packages: MIT (374), Apache-2.0 (90), BSD-2-Clause (14), Atlassian Developer Terms (8), ISC (8), BSD-3-Clause (7), BlueOak-1.0.0 (5), 0BSD (3), MIT-0 (2), CC0-1.0 (2), Python-2.0 (1), (MPL-2.0 OR Apache-2.0) (1), (MIT AND BSD-3-Clause) (1), (MIT OR CC0-1.0) (1), Unlicense (1).
 

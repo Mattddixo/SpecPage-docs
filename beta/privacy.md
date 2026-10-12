@@ -1,12 +1,12 @@
-# SpecPage privacy notice
+# SpecShelf privacy notice
 
 Last updated: 12 October 2026
 
-SpecPage is a Confluence Cloud app built on Atlassian Forge. This notice explains what it stores, where data goes, and how long it's kept. It applies to the beta and will be updated before the app is listed on the Atlassian Marketplace.
+SpecShelf is a Confluence Cloud app built on Atlassian Forge. This notice explains what it stores, where data goes, and how long it's kept. It applies to the beta and will be updated before the app is listed on the Atlassian Marketplace.
 
 ## The short version
 
-- SpecPage runs entirely on Atlassian's Forge platform. It has no servers of its own, and **nothing is sent to the developer**: no analytics, no tracking, no copies of your specs or pages.
+- SpecShelf runs entirely on Atlassian's Forge platform. It has no servers of its own, and **nothing is sent to the developer**: no analytics, no tracking, no copies of your specs or pages.
 - The only personal data it stores is Atlassian account IDs: of admins who change its settings, for the activity log, and of users who send Try it out requests, for the request log (which admins can turn off).
 - Data leaves your Atlassian site only for hosts your Confluence admin approves (your Git provider, spec URLs, and APIs for Try it out).
 
@@ -20,8 +20,8 @@ Everything below is kept in your site's Forge app storage, which Atlassian hosts
 | Git connections: name, provider, API address, allowed repositories and spaces | To read specs from Git | Until the admin deletes the connection |
 | Git access tokens and webhook secrets | To read private repositories and check webhooks | Kept in Forge's encrypted secret storage, never sent to the browser; deleted with the connection |
 | Copies of specs loaded from Git or URLs | Faster pages | Up to 24 hours, as set by the admin (or not at all) |
-| One record per SpecPage macro: title, version, number of endpoints, source label, page and space IDs, and the hosts it needs approved (its Try it out servers, or the host a spec URL loads from) | The API list for each space, the site-wide catalog, and host suggestions in SpecPage settings | Removed when the macro is removed from its page, or after 90 days unviewed if the page is hidden from everyone |
-| Spec hosts a saved macro was refused because they aren't approved, or that an editor suggested: the host name and the macro's page and macro IDs. Suggestions an admin dismissed: the host name | Host suggestions in SpecPage settings | 30 days; dismissed suggestions until the app is uninstalled |
+| One record per SpecShelf macro: title, version, number of endpoints, source label, page and space IDs, and the hosts it needs approved (its Try it out servers, or the host a spec URL loads from) | The API list for each space, the site-wide catalog, and host suggestions in SpecShelf settings | Removed when the macro is removed from its page, or after 90 days unviewed if the page is hidden from everyone |
+| Spec hosts a saved macro was refused because they aren't approved, or that an editor suggested: the host name and the macro's page and macro IDs. Suggestions an admin dismissed: the host name | Host suggestions in SpecShelf settings | 30 days; dismissed suggestions until the app is uninstalled |
 | Activity log: time, admin's Atlassian account ID, what changed (for site settings the new value, such as on or off; for Git connections field names only; never tokens) | So admins can see who changed what | The latest 200 changes, or 30 to 365 days if the admin sets a limit |
 | Try it out request log: time, the user's Atlassian account ID, method, host, path and the API's response status. Never query strings, headers, request bodies, responses or credentials | So admins can see who sent which request, and misuse can be traced | 30 days by default; admins can choose 7 or 90 days, or turn it off, which deletes it. At most 2,000 requests a day are kept one by one |
 | Rate-limit counters for Try it out | To stop abuse | Keyed by a salted hash of the account ID, never the ID itself; expire after 10 minutes |
@@ -40,7 +40,7 @@ Only to hosts your Confluence admin has approved, and only for these purposes:
 - **Spec URLs**: to read specs, if the admin has turned URL sources on.
 - **Try it out**: when a signed-in reader sends a test request, it goes through the app to the API they're testing, along with any credentials they typed (for example an API key or access token). Those credentials stay in the page's memory and are never saved by the app.
 
-Admins approve each host in the SpecPage settings, Atlassian asks them to confirm, and they can revoke hosts at any time in Atlassian Administration.
+Admins approve each host in the SpecShelf settings, Atlassian asks them to confirm, and they can revoke hosts at any time in Atlassian Administration.
 
 ## Logs
 
@@ -52,11 +52,11 @@ Before the app is uninstalled, it removes every account ID from its activity log
 
 ## If you contact us
 
-The app itself sends us nothing. If you email us, sign up as a tester or send feedback, we keep what you send: your name, email address, your Confluence site's address if you share it, and your messages and feedback. We use it only to run the beta: to reply, send beta updates (such as fixes, changes or the beta ending), and improve SpecPage. We don't sell it or share it, and we don't add you to marketing lists. We keep it until the beta ends and for up to 12 months after, so we can follow up about the Marketplace version, then delete it. Ask at the address below and we'll delete it sooner. Our email is hosted by our email provider, which stores these messages for us.
+The app itself sends us nothing. If you email us, sign up as a tester or send feedback, we keep what you send: your name, email address, your Confluence site's address if you share it, and your messages and feedback. We use it only to run the beta: to reply, send beta updates (such as fixes, changes or the beta ending), and improve SpecShelf. We don't sell it or share it, and we don't add you to marketing lists. We keep it until the beta ends and for up to 12 months after, so we can follow up about the Marketplace version, then delete it. Ask at the address below and we'll delete it sooner. Our email is hosted by our email provider, which stores these messages for us.
 
 ## Your rights
 
-For access to or deletion of data in your site's SpecPage storage, your Confluence admin can delete connections and change retention settings, or contact us at the address below. Atlassian's own handling of your account is covered by Atlassian's privacy policy.
+For access to or deletion of data in your site's SpecShelf storage, your Confluence admin can delete connections and change retention settings, or contact us at the address below. Atlassian's own handling of your account is covered by Atlassian's privacy policy.
 
 ## Contact
 

@@ -15,13 +15,13 @@ File uploads work, and image or PDF responses come back as downloads.
 
 ## Read-only mode
 
-By default, Try it out only sends read requests: GET, HEAD and OPTIONS. Write operations don't show an **Execute** button, and a note above the docs says why. An admin can let a host have every method (handy for sandbox APIs) with its **Try it out can send** choice in SpecPage settings. A page editor can keep their page to read requests even then. If a spec lists several servers and any of them is read-only, the page is too.
+By default, Try it out only sends read requests: GET, HEAD and OPTIONS. Write operations don't show an **Execute** button, and a note above the docs says why. An admin can let a host have every method (handy for sandbox APIs) with its **Try it out can send** choice in SpecShelf settings. A page editor can keep their page to read requests even then. If a spec lists several servers and any of them is read-only, the page is too.
 
 OAuth token requests from the **Authorize** button still work in read-only mode.
 
 ## How requests are sent
 
-Requests go through SpecPage on Atlassian's servers instead of straight from your browser, which avoids the cross-site (CORS) errors other tools run into. That means:
+Requests go through SpecShelf on Atlassian's servers instead of straight from your browser, which avoids the cross-site (CORS) errors other tools run into. That means:
 
 - requests only go to hosts an admin has approved for Try it out, over https;
 - redirects aren't followed;
@@ -30,7 +30,7 @@ Requests go through SpecPage on Atlassian's servers instead of straight from you
 - request bodies are limited to 400 KB (350 KB for files), text responses to 4 MB and file responses to 3 MB;
 - each user can send a burst of about 20 requests, then one every 3 seconds; if you hit the limit, the message says how long to wait.
 
-Credentials you type (API keys, tokens, client secrets) stay in the page's memory and are gone when you leave the page. SpecPage never saves or logs them.
+Credentials you type (API keys, tokens, client secrets) stay in the page's memory and are gone when you leave the page. SpecShelf never saves or logs them.
 
 The API sees requests coming from Atlassian's IP addresses, not yours.
 
@@ -40,4 +40,4 @@ Your Confluence admins can see a log of Try it out requests: who sent each one, 
 
 ## Acceptable use
 
-Only send requests to APIs you're allowed to use. Using Try it out to probe, attack or overload systems you aren't authorized to test breaks SpecPage's terms: see **Acceptable use** in the [beta terms](../beta/terms.md), or the Acceptable Use Policy for the Marketplace version.
+Only send requests to APIs you're allowed to use. Using Try it out to probe, attack or overload systems you aren't authorized to test breaks SpecShelf's terms: see **Acceptable use** in the [beta terms](../beta/terms.md), or the Acceptable Use Policy for the Marketplace version.

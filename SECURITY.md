@@ -12,7 +12,7 @@ You'll get an acknowledgement within 2 business days and updates as the issue is
 | High (7.0 to 8.9) | 4 weeks |
 | Medium (4.0 to 6.9) | 12 weeks |
 
-Reports can also go through Atlassian's Marketplace bug bounty program on Bugcrowd, if SpecPage is enrolled.
+Reports can also go through Atlassian's Marketplace bug bounty program on Bugcrowd, if SpecShelf is enrolled.
 
 ## Testing
 
@@ -20,15 +20,15 @@ Test against your own Confluence site and your own data. Don't test against othe
 
 ## Scope
 
-In scope: the SpecPage app, as installed from the Atlassian Marketplace.
+In scope: the SpecShelf app, as installed from the Atlassian Marketplace.
 
 Out of scope: Atlassian's platform and products (report those to Atlassian), Git providers, and APIs that customers connect.
 
 ## Supported versions
 
-SpecPage is a cloud app. Every site runs the latest version, so fixes reach all customers when they're deployed.
+SpecShelf is a cloud app. Every site runs the latest version, so fixes reach all customers when they're deployed.
 
-## How SpecPage is secured
+## How SpecShelf is secured
 
-SpecPage runs entirely on Atlassian Forge, with no servers of its own, and never sends customer data to the developer. It only contacts hosts a Confluence admin approves, and keeps Git tokens in Forge's encrypted secret storage, out of reach of the browser.
+SpecShelf runs entirely on Atlassian Forge, with no servers of its own, and never sends customer data to the developer. It only contacts hosts a Confluence admin approves, and keeps Git tokens in Forge's encrypted secret storage, out of reach of the browser.
 

@@ -1,10 +1,10 @@
 # Webhooks
 
-Without a webhook, a spec from Git is fetched again once the cache time passes (10 minutes by default). With a webhook, your Git provider tells SpecPage about each push and the next page view loads the new version.
+Without a webhook, a spec from Git is fetched again once the cache time passes (10 minutes by default). With a webhook, your Git provider tells SpecShelf about each push and the next page view loads the new version.
 
 ## Turn it on
 
-1. In **SpecPage settings → Connections**, choose **Webhook** on the connection, then **Turn on webhook**.
+1. In **SpecShelf settings → Connections**, choose **Webhook** on the connection, then **Turn on webhook**.
 2. Copy the **Webhook URL** and the **Secret**. The secret is shown once; choose **New secret** if you lose it.
 3. Add a webhook in your Git provider as below.
 
@@ -43,7 +43,7 @@ Project **Settings → Service hooks → Create subscription → Web Hooks**:
 - **URL**: the webhook URL
 - **Basic authentication username**: anything
 - **Basic authentication password**: the secret
-- **Resource details to send**: **All**. With less detail SpecPage can't tell which repository changed, so it refreshes every repository on the connection, which still works.
+- **Resource details to send**: **All**. With less detail SpecShelf can't tell which repository changed, so it refreshes every repository on the connection, which still works.
 
 ## Turning it off
 

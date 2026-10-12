@@ -1,12 +1,12 @@
-# SpecPage
+# SpecShelf
 
-SpecPage shows OpenAPI, Swagger and AsyncAPI specs as interactive docs on Confluence Cloud pages. It's a Forge app, available from the Atlassian Marketplace.
+SpecShelf shows OpenAPI, Swagger and AsyncAPI specs as interactive docs on Confluence Cloud pages. It's a Forge app, available from the Atlassian Marketplace.
 
 ## Documentation
 
-- [User guide](guide/README.md): setting up SpecPage, adding docs to pages, reading them and Try it out
+- [User guide](guide/README.md): setting up SpecShelf, adding docs to pages, reading them and Try it out
 - [Troubleshooting](guide/troubleshooting.md)
-- [Your data](guide/data.md): what SpecPage stores and how to export or delete it
+- [Your data](guide/data.md): what SpecShelf stores and how to export or delete it
 
 ## Legal and security
 
@@ -15,4 +15,4 @@ SpecPage shows OpenAPI, Swagger and AsyncAPI specs as interactive docs on Conflu
 
 Beta testers: see the [beta terms](beta/terms.md) and [beta privacy notice](beta/privacy.md).
 
-The SpecPage source code is not public. Report security issues as described in the [security policy](SECURITY.md).
+The SpecShelf source code is not public. Report security issues as described in the [security policy](SECURITY.md).

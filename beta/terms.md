@@ -1,8 +1,8 @@
-# SpecPage beta terms
+# SpecShelf beta terms
 
 Last updated: 12 October 2026
 
-SpecPage is a Confluence Cloud app for showing OpenAPI, Swagger and AsyncAPI docs on Confluence pages. SpecPage is made by an independent developer based in Ontario, Canada ("we", "us"). These terms cover the free beta, which is shared by installation link before the app is listed on the Atlassian Marketplace. By installing the beta you agree to them, and you confirm you're allowed to accept them for the organization whose site you install it on.
+SpecShelf is a Confluence Cloud app for showing OpenAPI, Swagger and AsyncAPI docs on Confluence pages. SpecShelf is made by an independent developer based in Ontario, Canada ("we", "us"). These terms cover the free beta, which is shared by installation link before the app is listed on the Atlassian Marketplace. By installing the beta you agree to them, and you confirm you're allowed to accept them for the organization whose site you install it on.
 
 ## The beta is free and unfinished
 
@@ -23,15 +23,15 @@ The beta is provided "as is" and "as available", without warranties of any kind,
 
 ## Acceptable use
 
-Don't use SpecPage, including Try it out, to:
+Don't use SpecShelf, including Try it out, to:
 
 - send requests to systems or APIs you aren't authorized to access or test, including APIs you found in someone else's documentation;
 - attack, probe, scan, fuzz, overload or disrupt any system, or test its security without its owner's written permission;
-- get around authentication, rate limits or other security measures, including SpecPage's own;
+- get around authentication, rate limits or other security measures, including SpecShelf's own;
 - hide who is sending requests, or make them look like they come from someone else;
 - send unlawful or malicious content, or break any law that applies to you or the system you're calling.
 
-Your Confluence admins choose which hosts SpecPage may contact, and your organization is responsible for approving only hosts it's allowed to call and for the requests its users send. When the Try it out request log is on, admins can see who sent each request. We may end your use of the beta and report misuse to Atlassian if these rules are broken.
+Your Confluence admins choose which hosts SpecShelf may contact, and your organization is responsible for approving only hosts it's allowed to call and for the requests its users send. When the Try it out request log is on, admins can see who sent each request. We may end your use of the beta and report misuse to Atlassian if these rules are broken.
 
 ## Limitation of liability
 
@@ -39,7 +39,7 @@ You use the beta at your own risk. To the fullest extent the law allows, we aren
 
 ## Feedback
 
-Feedback, ideas and bug reports are very welcome. You agree we can use them to improve SpecPage without owing you anything for them. We won't publish your name or company as a tester without asking.
+Feedback, ideas and bug reports are very welcome. You agree we can use them to improve SpecShelf without owing you anything for them. We won't publish your name or company as a tester without asking.
 
 ## Security issues
 
@@ -63,7 +63,7 @@ We may update these terms during the beta. The date at the top shows the latest 
 
 ## Trademarks
 
-Atlassian and Confluence are trademarks of Atlassian. Swagger is a trademark of SmartBear Software, Inc. SpecPage isn't affiliated with or endorsed by either company.
+Atlassian and Confluence are trademarks of Atlassian. Swagger is a trademark of SmartBear Software, Inc. SpecShelf isn't affiliated with or endorsed by either company.
 
 ## Contact
 

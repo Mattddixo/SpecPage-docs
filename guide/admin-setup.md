@@ -1,11 +1,11 @@
-# Set up SpecPage
+# Set up SpecShelf
 
-You need to be a Confluence administrator. To open SpecPage settings, use any of these:
+You need to be a Confluence administrator. To open SpecShelf settings, use any of these:
 
-- **Confluence settings**, then **SpecPage settings** in the left menu.
-- The **SpecPage settings** button at the top of the **API catalog** (in the **Apps** menu) or any space's **API docs** page.
-- The **SpecPage settings** button on a "host isn't approved" warning, in the macro editor or on a page you're editing.
-- **Manage apps**, then **SpecPage**, then **Configure**.
+- **Confluence settings**, then **SpecShelf settings** in the left menu.
+- The **SpecShelf settings** button at the top of the **API catalog** (in the **Apps** menu) or any space's **API docs** page.
+- The **SpecShelf settings** button on a "host isn't approved" warning, in the macro editor or on a page you're editing.
+- **Manage apps**, then **SpecShelf**, then **Configure**.
 
 Only admins see these buttons.
 
@@ -18,7 +18,7 @@ Each section opens and closes from its heading. **Connections** and **Approved h
 | Setting | What it does | Default |
 | --- | --- | --- |
 | **Allow specs from URLs** | Lets editors load a spec from an https URL on a host ticked for **Spec URLs** under **Approved hosts**. | Off |
-| **Cache specs from Git and URLs for** | How long a fetched spec is reused before SpecPage asks the source again: off, or 5 minutes to 24 hours. | 10 minutes |
+| **Cache specs from Git and URLs for** | How long a fetched spec is reused before SpecShelf asks the source again: off, or 5 minutes to 24 hours. | 10 minutes |
 | **Keep activity log for** | **Latest 200 changes**, or 30, 90, 180 or 365 days. | Latest 200 |
 | **Keep Try it out request log for** | Who sent which Try it out request: 7, 30 or 90 days, or **Off** (which deletes it). See [Activity and request logs](activity-log.md). | 30 days |
 
@@ -27,7 +27,7 @@ Each section opens and closes from its heading. **Connections** and **Approved h
 
 ## Connections
 
-A connection lets SpecPage read specs from one Git provider account. Choose **Add connection** and fill in:
+A connection lets SpecShelf read specs from one Git provider account. Choose **Add connection** and fill in:
 
 - **Provider**: GitHub (including GitHub Enterprise Server), GitLab (cloud or self-managed), Bitbucket Cloud, Azure DevOps, or SwaggerHub (cloud or on-premise).
 - **API URL** and **Web URL**: filled in for the cloud versions. Change them for GitHub Enterprise Server (`https://HOST/api/v3`), self-managed GitLab (`https://HOST/api/v4`) or SwaggerHub on-premise (`https://HOST/v1`).
@@ -38,7 +38,7 @@ A connection lets SpecPage read specs from one Git provider account. Choose **Ad
 
 Tokens are kept in Forge's encrypted secret storage and never sent to the browser. Changing a connection's provider or API address asks for the token again, so a saved token is never sent to a different host.
 
-**Test** loads a spec through the connection (enter a repository, branch and file path), which checks the token and the host in one go. When you save a connection, SpecPage asks Atlassian to approve the connection's host; Atlassian shows its own confirmation.
+**Test** loads a spec through the connection (enter a repository, branch and file path), which checks the token and the host in one go. When you save a connection, SpecShelf asks Atlassian to approve the connection's host; Atlassian shows its own confirmation.
 
 Recommended token permissions:
 
@@ -52,7 +52,7 @@ Recommended token permissions:
 
 ## Approved hosts
 
-SpecPage can't contact anything outside your Atlassian site until you approve it. **Approved hosts** lists every host, with a tick for what each one is used for:
+SpecShelf can't contact anything outside your Atlassian site until you approve it. **Approved hosts** lists every host, with a tick for what each one is used for:
 
 - **Spec URLs**: editors may load specs (and absolute `$ref`s) from it.
 - **Try it out**: readers may send test requests to it. If an API uses OAuth, add the identity provider's token host too.
@@ -77,9 +77,9 @@ Try it out requests are sent from Atlassian's servers, not the reader's computer
 
 ## How the lists are kept
 
-SpecPage keeps a copy of the lists so it can check each request against the right one. If you change hosts in Atlassian Administration, open SpecPage settings once so the copy catches up.
+SpecShelf keeps a copy of the lists so it can check each request against the right one. If you change hosts in Atlassian Administration, open SpecShelf settings once so the copy catches up.
 
 ## Next steps
 
 - [Turn on webhooks](webhooks.md) so pushes refresh docs straight away.
-- Tell editors to type `/spec` on a page and insert **OpenAPI / Swagger docs (SpecPage)**.
+- Tell editors to type `/spec` on a page and insert **OpenAPI / Swagger docs (SpecShelf)**.

@@ -1,6 +1,6 @@
 # Where specs can come from
 
-SpecPage reads OpenAPI 3.0, 3.1 and 3.2, Swagger 2.0, and AsyncAPI 2 and 3, in YAML or JSON. A spec split across several files with relative `$ref`s is merged automatically, as long as the other files sit in the same place (the same page, or the same repository and branch).
+SpecShelf reads OpenAPI 3.0, 3.1 and 3.2, Swagger 2.0, and AsyncAPI 2 and 3, in YAML or JSON. A spec split across several files with relative `$ref`s is merged automatically, as long as the other files sit in the same place (the same page, or the same repository and branch).
 
 ## Page attachment
 
@@ -17,7 +17,7 @@ Choose a **Connection** (set up by an admin), then:
 
 - **Repository**: picked from the connection's allowed list (filled in when it allows just one). If the admin allowed a whole workspace or group, like `acme/*`, type the repository, for example `acme/payments` (GitLab subgroups and Azure DevOps `organization/project/repository` work too).
 - **Branch, tag or commit**: leave empty for the default branch.
-- **File path**: SpecPage looks through the repository and offers the YAML and JSON files it finds, with files named `openapi`, `swagger` or `asyncapi` first. If there's exactly one of those, it's filled in for you. You can always type a path, for example `api/openapi.yaml` (in a very large repository not every file can be listed).
+- **File path**: SpecShelf looks through the repository and offers the YAML and JSON files it finds, with files named `openapi`, `swagger` or `asyncapi` first. If there's exactly one of those, it's filled in for you. You can always type a path, for example `api/openapi.yaml` (in a very large repository not every file can be listed).
 
 For SwaggerHub, enter the API as `owner/api-name` and an optional **Version**; leave the version empty for the API's default.
 
