@@ -10,7 +10,7 @@ New to SpecPage? **Try a sample API** fills in a small spec for httpbin.org, a f
 
 ## Paste a link instead
 
-Paste a link to a spec file into the page and SpecPage inserts the macro with the settings filled in. This works for files named `openapi` or `swagger` (`.yaml`, `.yml` or `.json`) on github.com, gitlab.com or bitbucket.org, and for APIs on app.swaggerhub.com, as long as an admin has set up a connection that allows the repository. The macro shows "isn't set up yet" until you save it: select it, choose **Edit** (the settings are already filled in from the link), check the preview and choose **Save**.
+Paste a link to a spec file into the page and SpecPage inserts the macro with the settings filled in. This works for files named `openapi` or `swagger` (`.yaml`, `.yml` or `.json`) on github.com, gitlab.com or bitbucket.org, and for APIs on app.swaggerhub.com, as long as an admin has set up a connection that allows the repository. The docs appear straight away. To keep the settings, select the macro, choose **Edit** (they're already filled in from the link) and choose **Save**. Until it's saved, visitors who aren't signed in see "isn't set up yet", and the page isn't listed in the API catalog.
 
 ## Several specs on one page
 
