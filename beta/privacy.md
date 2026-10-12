@@ -1,6 +1,6 @@
 # SpecPage privacy notice
 
-Last updated: 8 October 2026
+Last updated: 12 October 2026
 
 SpecPage is a Confluence Cloud app built on Atlassian Forge. This notice explains what it stores, where data goes, and how long it's kept. It applies to the beta and will be updated before the app is listed on the Atlassian Marketplace.
 
@@ -49,6 +49,10 @@ The app writes short operational messages to Atlassian's Forge logs, which the d
 ## Uninstalling
 
 Before the app is uninstalled, it removes every account ID from its activity log and deletes the Try it out request log. Atlassian keeps an app's storage for 28 days after uninstalling (so it can be restored on request) and then deletes it.
+
+## If you contact us
+
+The app itself sends us nothing. If you email us, sign up as a tester or send feedback, we keep what you send: your name, email address, your Confluence site's address if you share it, and your messages and feedback. We use it only to run the beta: to reply, send beta updates (such as fixes, changes or the beta ending), and improve SpecPage. We don't sell it or share it, and we don't add you to marketing lists. We keep it until the beta ends and for up to 12 months after, so we can follow up about the Marketplace version, then delete it. Ask at the address below and we'll delete it sooner. Our email is hosted by our email provider, which stores these messages for us.
 
 ## Your rights
 

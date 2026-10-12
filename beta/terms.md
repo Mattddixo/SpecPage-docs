@@ -1,8 +1,8 @@
 # SpecPage beta terms
 
-Last updated: 8 October 2026
+Last updated: 12 October 2026
 
-SpecPage is a Confluence Cloud app for showing OpenAPI, Swagger and AsyncAPI docs on Confluence pages. These terms cover the free beta, which is shared by installation link before the app is listed on the Atlassian Marketplace. By installing the beta you agree to them.
+SpecPage is a Confluence Cloud app for showing OpenAPI, Swagger and AsyncAPI docs on Confluence pages. SpecPage is made by an independent developer based in Ontario, Canada ("we", "us"). These terms cover the free beta, which is shared by installation link before the app is listed on the Atlassian Marketplace. By installing the beta you agree to them, and you confirm you're allowed to accept them for the organization whose site you install it on.
 
 ## The beta is free and unfinished
 
@@ -52,6 +52,14 @@ If you find a security problem, please report it privately to the contact below 
 ## Ending
 
 You can stop at any time by uninstalling the app from your site. We can end the beta or your access to it at any time.
+
+## Governing law
+
+These terms are governed by the laws of the Province of Ontario and the federal laws of Canada that apply there. Any dispute about them or the beta will be handled by the courts of Ontario, unless the law where you are says otherwise.
+
+## Changes to these terms
+
+We may update these terms during the beta. The date at the top shows the latest version, and continuing to use the beta after a change means you accept it.
 
 ## Trademarks
 
