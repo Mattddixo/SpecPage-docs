@@ -1,6 +1,6 @@
 # Your data
 
-SpecShelf runs entirely on Atlassian Forge. Everything it stores is in your site's Forge app storage, hosted and encrypted by Atlassian, and follows your site's data residency location. Nothing is sent to the SpecShelf developer. The privacy policy lists every item and how long it's kept.
+SpecShelf runs entirely on Atlassian Forge. Everything it stores is in your site's Forge app storage, hosted and encrypted by Atlassian, and follows your site's data residency location. Nothing is sent to the SpecShelf developer. The [privacy notice](../beta/privacy.md) lists every item and how long it's kept.
 
 ## Where your specs live
 

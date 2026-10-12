@@ -1,6 +1,6 @@
 # SpecShelf
 
-SpecShelf shows OpenAPI, Swagger and AsyncAPI specs as interactive docs on Confluence Cloud pages. It's a Forge app, available from the Atlassian Marketplace.
+SpecShelf shows OpenAPI, Swagger and AsyncAPI specs as interactive docs on Confluence Cloud pages. It's a Forge app, in a free beta before its Atlassian Marketplace listing.
 
 ## Documentation
 

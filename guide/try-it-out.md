@@ -40,4 +40,4 @@ Your Confluence admins can see a log of Try it out requests: who sent each one, 
 
 ## Acceptable use
 
-Only send requests to APIs you're allowed to use. Using Try it out to probe, attack or overload systems you aren't authorized to test breaks SpecShelf's terms: see **Acceptable use** in the [beta terms](../beta/terms.md), or the Acceptable Use Policy for the Marketplace version.
+Only send requests to APIs you're allowed to use. Using Try it out to probe, attack or overload systems you aren't authorized to test breaks SpecShelf's terms: see **Acceptable use** in the [beta terms](../beta/terms.md).
